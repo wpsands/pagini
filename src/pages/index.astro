@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import TableOfContents from '../components/TableOfContents.astro';
-import ImagePlaceholder from '../components/ImagePlaceholder.astro';
 
 const title = 'Pentax 67: The Complete Guide to the Pentax 67 System';
 const description = 'Everything you need to shoot the Pentax 67. Camera versions compared, every lens reviewed, film recommendations, troubleshooting, and field-tested tips from a working Pentax 6x7 shooter.';
@@ -267,7 +266,10 @@ const jsonLd = [
             <li class="flex gap-2"><span class="text-warm">—</span> Price range: $1,500–2,500 body only</li>
           </ul>
           <p class="text-sm text-slate-500 font-sans italic">Verdict: The best camera in the system, but 3–4x the price. Worth it if you shoot handheld frequently or want aperture priority.</p>
-          <ImagePlaceholder alt="Pentax 67II showing built-in grip and top LCD" />
+          <figure class="mt-4">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Pentax-67II-with-viewfinder.JPG" alt="Pentax 67II with built-in right-hand grip, AE prism, and 105mm f/2.4 lens" class="w-full max-w-md rounded-lg" loading="lazy" />
+            <figcaption class="text-sm text-slate-500 mt-2 font-sans italic">The Pentax 67II with its built-in grip and AE prism. Photo: Evgeniy Alexeev, <a href="https://commons.wikimedia.org/wiki/File:Pentax-67II-with-viewfinder.JPG" class="underline">Wikimedia Commons</a>, CC BY-SA 3.0.</figcaption>
+          </figure>
 
           <h3 id="which-to-buy" class="text-2xl font-bold mt-12 mb-4">Which Version Should You Buy?</h3>
           <div class="overflow-x-auto -mx-4 sm:mx-0 mb-6">
